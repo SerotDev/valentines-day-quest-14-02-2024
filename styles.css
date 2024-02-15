@@ -1,0 +1,73 @@
+/*
+Author: Sergi Rodriguez Utge (SerotDev)
+Description: Project Valentines Day Quest - Developed by SerotDev (https://github.com/SerotDev)
+Version: 1.0
+Copyright (c) 2024 SerotDev
+*/
+
+body {
+  background-color: pink;
+}
+
+.paper-body {
+  background-color: #f4e2c5;
+}
+
+.body-container-centred {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.background-img {
+  background-image: url("./img/background.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.background-img-1 {
+  background-image: url("./img/background-1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.background-paper {
+  background-image: url("./img/paperboard.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.background-glitch {
+  background-color: black;
+  background-image: url("./img/glitch.gif");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zoom-light {
+  opacity: 0;
+  background-color: rgba(199, 214, 255, 0.98);
+  transition: all 200ms;
+  border-radius: 100%;
+  width: 0vw;
+  height: 0vh;
+}
+
+.zoom-in {
+  opacity: 1;
+  width: 100vw;
+  height: 100vh;
+  border-radius: 0%;
+}

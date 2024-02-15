@@ -1,0 +1,86 @@
+/*
+Author: Sergi Rodriguez Utge (SerotDev)
+Description: Project Valentines Day Quest - Developed by SerotDev (https://github.com/SerotDev)
+Version: 1.0
+Copyright (c) 2024 SerotDev
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Fasthand&family=Patrick+Hand&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Alkatra", system-ui;
+  font-weight: 600;
+}
+
+p {
+  font-size: 22px;
+  font-family: "Patrick Hand", cursive;
+}
+
+.story-container {
+  position: relative;
+  box-sizing: content-box;
+  min-width: 100vw;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.note {
+  background-image: url("../img/note.png");
+  width: 300px;
+  height: 257px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-gold {
+  font-family: "Alkatra", system-ui;
+  border: 3px solid gold;
+  text-align: center;
+  font-size: 18px;
+}
+
+.text-outline {
+  text-shadow: -1.2px 0 black, 0 1.2px black, 1.2px 0 black, 0 -1.2px black;
+}
+
+.patrick-hand-regular {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.modal-content {
+  background-color: #f4e2c5;
+  background-image: url("../img/paperboard.jpg");
+}
+
+.modal-body {
+  border-top: 2px solid #00000050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.modal-footer {
+  border-top: 2px solid #00000050;
+  backdrop-filter: blur(2px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
