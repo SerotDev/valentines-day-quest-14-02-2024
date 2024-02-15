@@ -1,8 +1,8 @@
 // ------------------------------------------------------------------------------------------------------
-// Author: Sergi Rodriguez Utge (SerotDev)
+// Author: Sergi Rodríguez Utgé (SerotDev)
 // Description: Project Valentines Day Quest - Developed by SerotDev (https://github.com/SerotDev)
 // Version: 1.0
-// Copyright (c) 2024 SerotDev
+// Copyright (c) 2024 Sergi Rodríguez Utgé
 // ------------------------------------------------------------------------------------------------------
 
 // Immediately Invoked Function Expression (IIFE) to create a private scope

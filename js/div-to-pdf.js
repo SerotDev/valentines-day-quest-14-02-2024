@@ -1,8 +1,8 @@
 // ------------------------------------------------------------------------------------------------------
-// Author: Sergi Rodriguez Utge (SerotDev)
+// Author: Sergi Rodríguez Utgé (SerotDev)
 // Description: Project Valentines Day Quest - Developed by SerotDev (https://github.com/SerotDev)
 // Version: 1.0
-// Copyright (c) 2024 SerotDev
+// Copyright (c) 2024 Sergi Rodríguez Utgé
 // ------------------------------------------------------------------------------------------------------
 
 // jQuery event handler for the click event on the element with the ID 'downloadPDF'
